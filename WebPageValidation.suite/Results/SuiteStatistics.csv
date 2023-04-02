@@ -1,0 +1,4 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+WebPage Validation Script One,Success,31,18,2023-04-01 12:22:46 +0530,2023-04-01 23:36:15 +0530,0:01:08
+Webpage Validation Script Two,Success,3,2,2023-04-02 00:01:32 +0530,2023-04-02 00:39:31 +0530,0:02:45
+WebPage Validation Script Two,Success,2,1,2023-04-02 01:46:22 +0530,2023-04-02 01:54:29 +0530,0:02:19

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1865,
+		81,
+		43,
+		38
+	],
+	"lastmodifieddate": 1680340965.5679998,
+	"createddate": 1680340965.5679998,
+	"name": "Button_Close",
+	"lastfounddate": 1680438264.0190001,
+	"ocrcapturestring": "X",
+	"lastfoundlocation": [
+		1865,
+		81,
+		43,
+		38
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[21,19]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Button_Close.png",
+				"connectionname": "m18va",
+				"type": 1,
+				"connectionserverid": "10.160.226.226",
+				"capturerect": [
+					1865,
+					81,
+					43,
+					38
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "X"
+			}
+	]
+}

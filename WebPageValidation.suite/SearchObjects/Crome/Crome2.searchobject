@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		98,
+		429,
+		33,
+		34
+	],
+	"lastmodifieddate": 1680333027.365,
+	"createddate": 1680333027.365,
+	"name": "Crome/Crome2",
+	"lastfounddate": 1680335675.6690001,
+	"ocrcapturestring": ",O",
+	"lastfoundlocation": [
+		825,
+		263,
+		9,
+		10
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[16,17]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Crome/Crome2.png",
+				"connectionname": "m18va",
+				"type": 1,
+				"connectionserverid": "10.160.226.226",
+				"capturerect": [
+					98,
+					429,
+					33,
+					34
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": ",O"
+			}
+	]
+}

@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Validation one">
+ <run>
+  <RunDate>2023-04-01 12:22:46.257 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.141000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_122246.257/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:23:09.482 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>24.078000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_122309.482/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:23:35.365 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>239.177000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_122335.365/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:29:49.281 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>14.018000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_122949.281/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:30:15.218 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.011000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_123015.218/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in webpage_validation_script_one:
+Syntax Error at line 9: Syntax Error - can&#x27;t understand &quot;Function&quot; at character 7</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:30:53.161 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>13.080000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_123053.161/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:31:22.758 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>12.378000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_123122.758/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:41:43.197 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>12.784000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_124143.197/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:47:27.096 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>7.940000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_124727.096/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:51:27.750 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.398000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_125127.750/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 12:51:39.488 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>1394.536000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_125139.488/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:23:13.591 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.372000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_132313.591/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:23:28.594 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.378000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_132328.594/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:23:34.849 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.389000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_132334.849/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:23:56.870 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>3.764000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_132356.870/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:24:29.424 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>6.777000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_132429.424/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:24:42.110 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>3.824000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_132442.110/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:25:38.279 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>3.780000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_132538.279/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 13:32:11.602 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>3.986000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_133211.602/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 14:16:54.371 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>6.206000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_141654.371/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 14:17:42.155 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>26.609000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_141742.155/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 14:22:32.352 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>3.557000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_142232.352/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 14:22:48.297 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>6.617000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_142248.297/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 14:41:48.979 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>80.568000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_144148.979/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 14:43:22.676 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>14.012000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_144322.676/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 14:43:52.380 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>9.173000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_144352.380/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 15:10:58.833 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.805000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_151058.833/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 15:11:49.956 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>83.943000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>3</Successes>
+  <LogFile>20230401_151149.956/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 15:28:16.856 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>20.616000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>3</Successes>
+  <LogFile>20230401_152816.856/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 15:31:18.770 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>105.193000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>8</Successes>
+  <LogFile>20230401_153118.770/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 15:39:56.351 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>56.116000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>8</Successes>
+  <LogFile>20230401_153956.351/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 15:58:34.772 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>3.961000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_155834.772/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 15:58:56.296 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>68.437000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_155856.296/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:00:17.775 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>5.538000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_160017.775/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:03:36.276 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>47.672000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_160336.276/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:05:58.348 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>81.349000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_160558.348/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:07:21.733 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>14.690000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_160721.733/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:07:40.758 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>134.272000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_160740.758/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:11:12.385 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>6.166000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_161112.385/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:13:26.883 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>59.200000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_161326.883/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:16:00.170 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>5.900000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_161600.170/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:18:02.264 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>47.739000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_161802.264/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 16:42:06.404 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>118.430000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_164206.404/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:00:39.660 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>126.626000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_170039.660/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:04:26.885 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>76.532000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_170426.885/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:06:46.522 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>94.699000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_170646.522/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:09:03.584 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>79.650000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_170903.584/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:11:21.033 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>83.283000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_171121.033/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:12:59.206 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>52.767000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_171259.206/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:15:04.845 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>132.687000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_171504.845/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:17:31.789 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>14.239000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>3</Successes>
+  <LogFile>20230401_171731.789/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:18:06.222 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>14.165000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_171806.222/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:18:34.539 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>4.616000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_171834.539/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:18:54.434 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>146.937000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>11</Successes>
+  <LogFile>20230401_171854.434/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:22:43.430 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>91.169000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_172243.430/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 17:26:55.629 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>128.142000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_172655.629/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 20:35:39.484 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>55.062000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>9</Successes>
+  <LogFile>20230401_203539.484/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 20:37:28.939 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>68.382000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20230401_203728.939/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 20:38:56.320 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>213.958000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_203856.320/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 20:42:43.475 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>62.225000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_204243.475/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 20:45:25.139 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>549.058000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>11</Successes>
+  <LogFile>20230401_204525.139/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 21:11:11.809 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>235.249000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>12</Successes>
+  <LogFile>20230401_211111.809/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 23:03:58.729 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.525000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20230401_230358.729/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 23:04:28.336 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>210.656000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>11</Successes>
+  <LogFile>20230401_230428.336/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 23:10:22.604 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>192.750000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>11</Successes>
+  <LogFile>20230401_231022.604/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 23:29:32.192 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>46.491000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20230401_232932.192/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 23:33:40.963 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>8.581000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20230401_233340.963/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-04-01 23:36:15.900 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>198.961000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>12</Successes>
+  <LogFile>20230401_233615.900/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

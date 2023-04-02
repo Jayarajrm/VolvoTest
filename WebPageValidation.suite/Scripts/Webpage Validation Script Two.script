@@ -1,0 +1,43 @@
+﻿# This script will open the url https://www.volvocars.com/intl/v/car-safety/a-million-more and validate the page is opened and validate the customer and their testimony
+
+
+
+Try 
+	
+	set the remoteWorkInterval  to 2 // By default it is 0.7 which we are increasing  to 1.0 so that it works better in Jenkin.
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Log ("Step 1: Load the appropriate ulr in the browser")
+	
+	set dataFile to JSONValue(file ResourcePath("MyDB.json"))
+	Run Function.LaunchBrowser "Crome"
+	Typetext dataFile.(URLMain) & returnKey
+	assert ImageFound(8,"Image_Volvo") is True with "WebPage loaded successfully"
+	CompareScreen name: "VolvoLogo", rectangle:  [Imagerectangle(Image:"Image_Volvo").topleft+[10,-10],Imagerectangle(Image:"Image_Volvo").bottomRight+[1760,30]]
+	CaptureScreen{Name:"Step 1"}
+
+	Log " Expected Result: appropriate  webpage is opened"
+	
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	
+	Log ("Step 2:Validate few of the customer's Name")
+	Assert that "Function".FindCustomer  (dataFile.(CustomerName1)) is True with "Customer found"
+	Assert that "Function".FindCustomer  (dataFile.(CustomerName2)) is True with "Customer found"
+	
+	Log " Expected Result:All the customers found"
+	
+	Log ("Step 3:Validate customer testimony")
+	set dataFile to JSONValue(file ResourcePath("MyDB.json"))
+	Assert that "Function".ReadTestimony  (dataFile.(CustomerName1), dataFile.(Testimony1)) is True with "Customer Testimony is proper"
+	Assert that "Function".ReadTestimony  (dataFile.(CustomerName2), dataFile.(Testimony2)) is True with "Customer Testimony is proper"
+	
+	Log " Expected Result:All the customers testimony is proper"
+	
+	typetext altKey & f4 // close browser
+	
+Catch Exception
+	capturescreen("ScreenErrorexception")
+	LogError "Error occurred  due to: "&exception&" found at "&exception.location
+	typetext altKey & f4 // close browser
+End Try
+

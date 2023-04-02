@@ -1,0 +1,49 @@
+﻿
+
+To LaunchBrowser BrowserImage // This utility is used to open the browser by passing its icon image in the desktop to the variable BrowserImage
+	DoubleClick BrowserImage
+End LaunchBrowser
+
+To ValidateMenu Action // This Utility is used to validate the menuButton with the action Click or Tab based on the value passed to variable Action, 
+	If Action = "Click"
+		Set the SearchRectangle to [Imagerectangle(Image:"Image_Volvo").topleft+[-10,-10],Imagerectangle(Image:"Image_Volvo").bottomRight+[1760,30]]
+		click {text:"Menu"} 
+		Set the SearchRectangle to[]
+		click waitfor:60, Image: "Button_Close"
+		Log "click action opens Menu options"
+		waitfor 60, "Image_Volvo"
+		Set the SearchRectangle to[]
+		Return True
+	else If Action = "Tab"
+		Repeat 3 times
+			typetext tabKey
+			wait 2
+		End repeat
+		typetext returnKey
+		click waitfor:60, Image: "Button_Close"
+		Return True
+	End If
+	Return False
+End ValidateMenu
+
+To FindCustomer Name // This Utility is used to search customer by scrolling down the webpage where variable Name is the Name of the customer
+	repeat until ImageFound(text:Name, waitFor:10) or repeatIndex()=15
+		ScrollWheelDown 3
+	end repeat
+	if ImageFound(text:Name)
+		Return True
+	else
+		Return False
+	end if
+End FindCustomer
+
+To ReadTestimony Name, Testimony // This Utility is used to read testimony of the customer based on their name, variable name is the customername and variable Testimony is the Testimony text
+	Set the SearchRectangle to [Imagerectangle(Text:Name).bottomleft+[0,10],Imagerectangle(Text:Name).bottomRight+[370,70]]
+	if ImageFound(text:Testimony,)
+		Set the SearchRectangle to []
+		Return True
+	else
+		Set the SearchRectangle to []
+		Return False
+	end if
+End ReadTestimony

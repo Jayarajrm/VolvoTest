@@ -1,0 +1,71 @@
+﻿# This script will open the url https://www.volvocars.com/intl/v/car-safety/a-million-more and validate the page is opened and the functionality of menu option.
+
+
+
+Try 
+	
+	set the remoteWorkInterval  to 2 // By default it is 0.7 which we are increasing  to 1.0 so that it works better in Jenkin.
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Log ("Step 1: Load the appropriate ulr in the browser")
+	
+	set dataFile to JSONValue(file ResourcePath("MyDB.json"))
+	Run Function.LaunchBrowser "Crome"
+	Typetext dataFile.(URLMain) & returnKey
+	assert ImageFound(8,"Image_Volvo") is True with "WebPage loaded successfully"	
+	CompareScreen name: "VolvoLogo", rectangle:  [Imagerectangle(Image:"Image_Volvo").topleft+[10,-10],Imagerectangle(Image:"Image_Volvo").bottomRight+[1760,30]] // This inbuilt key word in eggplant does take care of visual regression , if there is any changes in position of the image or image itself it will show the difference in the image comparing to the baseline image.
+	CaptureScreen{Name:"Step 1"}
+
+	Log " Expected Result: Appropriate  webpage is opened"
+	
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Log ("Step 2:Validate Volvo car safety page has toolbar with Menu and Our Cars button")
+	
+	Set the SearchRectangle to [Imagerectangle(Image:"Image_Volvo").topleft+[-10,-10],Imagerectangle(Image:"Image_Volvo").bottomRight+[1760,30]]
+	assert ImageFound(text:"Menu") is True with "Menu toolbar button is found"
+	assert ImageFound(text:"Our Cars") is True with "Our Cars toolbar button is found"
+	Set the SearchRectangle to[]
+	CaptureScreen{Name:"Step 2"}
+
+	Log " Expected Result: The tool bar has Menu and Our Cars buttons"
+	
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Log ("Step 3:Validate functionality of Menu button by click and tabbing action")
+	
+	// Validate that Menu option opens when click action is performed
+	Assert that "Function".ValidateMenu ("Click") is True with "Menu toolbar button opens with click action"
+	
+	// Validation by tabbing order and the returnKey functionality to opens Menu options
+	Assert that "Function".ValidateMenu ("Tab") is True with "Menu toolbar button opens with tab action"
+	
+	Log "After tabbing 3 times focus moves to menu and when hit enter key it opens Menu options"
+	Log " Expected Result:Able to open menu option using click action or tabbing action"
+	
+	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Log ("Step 4:Validate when clicked on menu we get to see Buy, Own, About Volvo, Explore and More options")
+	
+	Set the SearchRectangle to [Imagerectangle(Image:"Button_Close").topleft+[-340,-30],Imagerectangle(Image:"Button_Close").bottomRight+[0,320]]
+	assert ImageFound(text:"Buy") is True with "Buy option found under Menu"
+	assert ImageFound(text:"Own") is True with "Own option found under Menu"
+	assert ImageFound(text:"About Volvo") is True with "About Volvo option found under Menu"
+	assert ImageFound(text:"Explore") is True with "Explore option found under Menu"
+	assert ImageFound(text:"More") is True with "More option found under Menu"
+	Log " Expected Result: The tool bar has menu and our cars buttons"
+	Set the SearchRectangle to[]
+	CaptureScreen{Name:"Step 4"}
+	//click waitfor:60, Image: "Button_Close"
+	
+	Log " Expected Result:Under Menu we get to see Buy, Own, About Volvo, Explore and More options"
+	
+	
+	typetext altKey & f4 // close browser
+	
+Catch Exception
+
+	capturescreen("ScreenErrorexception")
+	LogError "Error occurred  due to: "&exception&" found at "&exception.location
+	typetext altKey & f4 // close browser
+End Try
+

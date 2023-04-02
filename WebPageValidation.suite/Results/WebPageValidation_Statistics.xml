@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="WebPage Validation Script One">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>31</NumberOfRuns>
+  <NumberOfFails>18</NumberOfFails>
+  <FirstRun>2023-04-01 12:22:46 +0530</FirstRun>
+  <LastRun>2023-04-01 23:36:15 +0530</LastRun>
+  <TotalTimeOnSuccess>887.493000</TotalTimeOnSuccess>
+ </script>
+ <script name="Webpage Validation Script Two">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2023-04-02 00:01:32 +0530</FirstRun>
+  <LastRun>2023-04-02 00:39:31 +0530</LastRun>
+  <TotalTimeOnSuccess>165.682000</TotalTimeOnSuccess>
+ </script>
+ <script name="WebPage Validation Script Two">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-04-02 01:46:22 +0530</FirstRun>
+  <LastRun>2023-04-02 01:54:29 +0530</LastRun>
+  <TotalTimeOnSuccess>139.486000</TotalTimeOnSuccess>
+ </script>
+</statistics>
